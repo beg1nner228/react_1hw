@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/react_1hw/',
+  base: '/react_hw1/',
 })
