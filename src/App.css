@@ -17,6 +17,27 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.myFavWebsiteLink {
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+}
+.resultOfSum {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  animation: flickering 3s infinite;
+}
+
+@keyframes flickering {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    color: red;
+    opacity: 0;
+  }
+}
 
 @keyframes logo-spin {
   from {
